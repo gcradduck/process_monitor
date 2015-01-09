@@ -1,0 +1,17 @@
+{application, dps,
+ [
+  {description, "DPS Interface Monitor."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {modules, [
+  	    dps_app,
+	    dps_sup,
+	    dps_monitor
+  	    ]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { dps_app, []}},
+  {env, []}
+ ]}.

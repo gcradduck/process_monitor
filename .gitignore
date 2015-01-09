@@ -1,0 +1,5 @@
+src/*.erl~
+ebin/*.beam~
+*~
+src/*~
+ebin/*~
